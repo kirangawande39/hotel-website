@@ -18,6 +18,13 @@
 
 }
 
+.carousel-caption p{
+    font-size: 2rem;
+}
+.carousel-caption h5{
+  font-size: 3rem;
+}
+
 .left {
     height: 50%;
     width: 40vw;
@@ -44,7 +51,8 @@ span p:hover {
 
 .back-contaner {
     margin-top: 100px;
-    background: url(img/hero2.jpg);
+    background: url(img/hero3.jpg) no-repeat center center/cover;
+
     height: 70vh;
     color: white;
     display: flex;
@@ -52,6 +60,7 @@ span p:hover {
     justify-content: center;
     align-items: center;
     position: sticky;
+    
 }
 
 .back-contaner h2 {
@@ -60,6 +69,7 @@ span p:hover {
 
 .container {
     margin-top: 100px;
+    
 }
 
 .container .card {
@@ -87,9 +97,23 @@ span p:hover {
 }
 
 .col .card {
-    background: url(img/hero2.jpg);
     height: 40vh;
-   
+}
+ .b1{
+    background: url(img/lunch.jpg) no-repeat center center/cover;
+    height: 40vh; 
+}
+ .b2{
+    background: url(img/dinner.jpg) no-repeat center center/cover;
+    height: 40vh; 
+}
+ .b3{
+    background: url(img/drink.jpg) no-repeat center center/cover;
+    height: 40vh; 
+}
+ .b4{
+    background: url(img/sw.jpg) no-repeat center center/cover;
+    height: 40vh; 
 }
 .col .card:hover{
     transform: scale(1.04);
@@ -103,8 +127,13 @@ span p:hover {
     margin-top: 100px;
     text-align: center;
     background-color: white;
-    width: 100px;
+    width: 150px;
     margin-left: 200px;
+
+}
+.col .card p:hover{
+    background-color: red;
+    color: white;
 }
 
 .col .card a {
@@ -117,6 +146,8 @@ span p:hover {
 .menu-section {
     background-color: blanchedalmond;
     margin-top: 50px;
+   
+   
 }
 
 .menu-section h2 {
@@ -151,11 +182,11 @@ span p:hover {
 input {
     padding: 7px;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
 }
 
 select {
-    width: 200px;
+    width: 300px;
     text-align: center;
     padding: 7px;
     border-radius: 10px;
@@ -166,6 +197,7 @@ form {}
 #btn {
     background-color: black;
     color: white;
+    margin-left: 40px;
 }
 
 #btn:hover {
@@ -181,9 +213,20 @@ form {}
     background-color: rgb(64, 63, 63);
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: white;
+}
+.cp-left{
+    display: flex;
+}
+.cp-right p{
+font-size: 1.2rem;
+}
+.cp-left img{
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
 
@@ -214,3 +257,59 @@ form {}
         width: 50vw;
     }
 }
+
+
+
+#sign_in{
+    margin-left: 500px;
+    background-color: aqua;
+    padding: 5;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
