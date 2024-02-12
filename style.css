@@ -192,7 +192,7 @@ select {
     border-radius: 10px;
 }
 
-form {}
+
 
 #btn {
     background-color: black;
@@ -247,9 +247,7 @@ font-size: 1.2rem;
     .col-sm-6 .card img{
         display: none;
     }
-    .col-sm-6 .card {
-        
-    }
+    
     input{
          width: 50vw;
     }
